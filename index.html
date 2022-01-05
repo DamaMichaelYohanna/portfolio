@@ -1,55 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <script type="text/javascript">
-		var section = '{{section}}';
-		if (section == 'home'){
-		}
-		else if (section == 'portfolio'){
-			// document.getElementById('portfolio').style.background='red';
-			document.getElementById("portfolio").style.background = "white";
-		}
-		else if (section == 'services'){
-			document.getElementById('services').style.background='red';
-			document.getElementById("services").style.background = "white";
-		}
-		console.log(section)
-	</script> -->
-    <script type="text/javascript">
-      function show_market(argument) {
-        // body...
-        document.getElementById("project-right").style.visibility = "visible";
-        console.log("this function was called");
-      }
-
-      function remove_market(argument) {
-        // body...
-        document.getElementById("project-right").style.visibility = "hidden";
-        console.log("this function twon was called");
-      }
-      function my_function(argument) {
-        // body...
-        document.getElementById("home").style.visibility = "hidden";
-        console.log("this function was called");
-      }
-
-      function my_function2(argument) {
-        // body...
-        document.getElementById("home").style.visibility = "visible";
-        console.log("this function twon was called");
-      }
-    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- loading of csss goes here -->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- Loading of the bootstrap framework -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      type="text/css"
-      href="bootstrap/css/fontawesome-all.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -58,28 +19,24 @@
       crossorigin="anonymous"
     />
     <!--  loading of the related javascript  -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
     <script
-      type="text/javascript"
-      src="bootstrap/js/bootstrap.bundle.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
     ></script>
-    <script
-      type="text/javascript"
-      src="bootstrap/js/bootstrap.bundle.min.js"
-    ></script>
-
-    <title>LegacyTechnology-Bootstrap</title>
+    <title>LegacyTechnology | Home</title>
   </head>
   <body>
     <nav
       class="navbar navbar-expand-sm navbar-light sticky-top"
       style="background: steelblue; box-shadow: 0px 3px 10px white"
     >
-      <a class="navbar-brand">
-        <!-- <img src="images/bg1.png" height="70" width="180"> -->Legacy
-        Technology
-      </a>
+      <span>
+        <a class="navbar-brand mx-auto" style="color: white; padding: 10%">
+          <!-- <img src="images/bg1.png" height="70" width="180" /> -->
+          Legacy Technology
+        </a>
+      </span>
 
       <button
         class="navbar-toggler"
@@ -94,9 +51,14 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ml-auto mb-2">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin: 0% auto">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a
+              class="nav-link active"
+              href="index.html"
+              style="margin-right: 10px"
+              >Home</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -142,7 +104,8 @@
             <div class="me-auto" style="">
               <h1>LegacyTechnology</h1>
               <p>
-                Some representative placeholder content for the second slide.
+                Software development is our concern here. We can also boost your
+                tech skills
               </p>
             </div>
           </div>
@@ -222,7 +185,7 @@
             <p class="deco-text">More With Mobile</p>
             <span>
               Have us make you a fully functional web-Site, Customized and fit
-              to suit your taste baby.
+              to suit your taste.
             </span>
           </div>
         </div>
@@ -454,16 +417,11 @@
             and development
           </h2>
           <div>
-            <span>
-              <i class="fab fa-twitter"></i>
-            </span>
-            <span>
-              <i class="fab fa-instagram"></i>
-            </span>
-            <span>
-              <i class="fab fa-facebook"></i>
-              <i class="fab fa-facebook"></i>
-            </span>
+            <div>
+              <a href=""><i class="fab fa-twitter"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </div>
           </div>
         </div>
       </div>

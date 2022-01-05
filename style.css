@@ -8,7 +8,21 @@ hr {
 .clr {
   clear: both;
 }
-
+.nav-item {
+  margin-right: 20px;
+}
+.nav-item > .active {
+  /* background: white; */
+  font-weight: bold;
+  /* color: white; */
+  /* padding: 4px; */
+  /* border-radius: 5px; */
+}
+.nav-link:hover {
+  transition-property: border-top;
+  transition-delay: 0.1s;
+  border-top: 2px solid white;
+}
 #first-header {
   margin: auto;
   background: steelblue;
@@ -83,20 +97,14 @@ hr {
   font-family: Arial;
 }
 
-/* #message a {
+#message a {
   background: steelblue;
-  padding: 15px;
-  font-size: 1em;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-  margin: 10px 0px;
-  width: 10px;
-} */
+}
 
 #message a:hover {
   transition-property: box-shadow, padding;
   transition-duration: 1s, 1s;
+  /* background: steelblue; */
   padding: 13px 19px;
   box-shadow: 0px 0px 6px lightgray;
 }
@@ -274,11 +282,14 @@ hr {
   text-decoration: none;
 }
 /* about ceo section css */
+/* general */
 .about-ceo {
   padding: 7%;
   font-family: laksaman;
 }
+
 /* Follow us section css */
+/* general */
 .follow-us {
   background: rgba(0, 0, 0, 0.808);
   text-align: center;
@@ -300,7 +311,7 @@ hr {
   height: 20px;
   width: 20px;
 }
-
+/* General section */
 /* the contact us section css */
 .contact-us {
   background: white;
@@ -309,9 +320,10 @@ hr {
 }
 
 .contact-us img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
+/* end of the generatl contact  css */
 
 /* services pages css */
 /* service column section */
@@ -326,17 +338,29 @@ hr {
   font-family: laksaman;
 }
 .icon img {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 
 .icon {
   background: steelblue;
   border-radius: 50%;
-  width: 150px;
+  width: auto;
   height: 90px;
   text-align: center;
   margin: 1%;
   padding: 6%;
   margin-right: 7%;
+}
+/* end of the css for the service page */
+
+/* begining of the css for the portfolio page */
+/*  */
+.skill-row {
+  margin: 10% 0px;
+  box-sizing: border-box;
+}
+i {
+  padding-right: 10px;
+  width: 30px;
 }
